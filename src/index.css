@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .login {
+    background: linear-gradient(
+      90deg,
+      rgba(53, 151, 219, 1) 21%,
+      rgba(75, 130, 207, 1) 41%,
+      rgba(90, 116, 200, 1) 65%,
+      rgba(116, 92, 186, 1) 100%
+    );
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .fontchange {
+    font-family: "Luxurious Roman", cursive;
+  }
+
+  .loginbtn {
+    background: linear-gradient(
+      90deg,
+      rgba(53, 151, 219, 1) 21%,
+      rgba(75, 130, 207, 1) 41%,
+      rgba(90, 116, 200, 1) 65%,
+      rgba(116, 92, 186, 1) 100%
+    );
+    font-family: "Poppins", sans-serif;
+  }
+
+  .loginbtn:hover {
+    background: linear-gradient(
+      270deg,
+      rgba(53, 151, 219, 1) 21%,
+      rgba(75, 130, 207, 1) 41%,
+      rgba(90, 116, 200, 1) 65%,
+      rgba(116, 92, 186, 1) 100%
+    );
+  }
+
+  .fontnew {
+    font-family: "Poppins", sans-serif;
+  }
+}
