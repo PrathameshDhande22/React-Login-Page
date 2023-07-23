@@ -9,7 +9,7 @@ const Auth = ({ children }) => {
       navi("/");
     }
   }, [navi]);
-  return <>{children}</>;
+  return children;
 };
 export default Auth;
 

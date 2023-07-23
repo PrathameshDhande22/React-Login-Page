@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export const Step5 = () => {
   const navi = useNavigate();
   setTimeout(() => {
-    // localStorage.removeItem("token");
+    localStorage.removeItem("token");
     navi("/");
   }, 5000);
 
